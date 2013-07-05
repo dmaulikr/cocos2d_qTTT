@@ -1,0 +1,59 @@
+touch
+    update with turn 1
+    update animation
+    update with turn 2
+    update animation
+        send message with both turns
+        end turn
+        
+        
+        
+receive
+    get turn message
+        update with turn 1
+        update with turn 2
+        check for cyclic
+            if cyclic, check for collapse
+                collapse->update objects, send message to update collapse
+                or
+                get observation->update objects, send message to update observation
+        start turn
+        
+    get collapse message
+        update objects
+    
+    get observation message
+        update objects
+
+
+
+receive
+if (messagetype is action )
+-->update objects
+-->check state of objects for cyclic, which then calls a modified version of updateobjectswithcycle
+-->check state for collapse
+-->set state from waiting to observing (so the touch is handled differently) or set state to playing
+if (messagetype is observation)
+if state is not waiting, wtf? if im playing, i shouldn't be getting an observation from the other player
+--> update objects with what was chosen
+-->state is still waiting
+
+
+
+
+
+draw
+check which objects and draw a line from the entangled marks,
+
+
+march20
+check for cycles.. things can be
+    a collapse
+    a cycle
+    no cycle
+    
+    if cycle... check for collapse
+        we know there's a cycle.. so...
+        
+
+

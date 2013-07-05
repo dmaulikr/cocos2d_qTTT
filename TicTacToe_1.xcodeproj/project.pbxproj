@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103AC83116ED600D00A35901 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 103AC83016ED600D00A35901 /* GameObject.m */; };
+		103AC83316ED618600A35901 /* notes in Resources */ = {isa = PBXBuildFile; fileRef = 103AC83216ED618600A35901 /* notes */; };
 		1064DDD416EBEB3C00BEF244 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1064DDD316EBEB3C00BEF244 /* QuartzCore.framework */; };
 		1064DDD616EBEB3C00BEF244 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1064DDD516EBEB3C00BEF244 /* OpenGLES.framework */; };
 		1064DDD816EBEB3C00BEF244 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1064DDD716EBEB3C00BEF244 /* OpenAL.framework */; };
@@ -122,9 +124,19 @@
 		1064DF3716EBEB3F00BEF244 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1064DF3616EBEB3F00BEF244 /* AppDelegate.m */; };
 		1064DF3A16EBEB3F00BEF244 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1064DF3916EBEB3F00BEF244 /* RootViewController.m */; };
 		1064DF3D16EBEB3F00BEF244 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1064DF3C16EBEB3F00BEF244 /* HelloWorldLayer.m */; };
+		1064DF4A16EBF54700BEF244 /* PlayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1064DF4916EBF54700BEF244 /* PlayLayer.m */; };
+		1064DF6916EC833C00BEF244 /* GCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1064DF6816EC833C00BEF244 /* GCHelper.m */; };
+		1064DF6B16EC86F600BEF244 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1064DF6A16EC86F600BEF244 /* GameKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1064DF7316EC8DAA00BEF244 /* GCPlayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1064DF7216EC8DAA00BEF244 /* GCPlayLayer.m */; };
+		108CA77E16F4204200EA79B1 /* Particle.m in Sources */ = {isa = PBXBuildFile; fileRef = 108CA77D16F4204200EA79B1 /* Particle.m */; };
+		108CA78016F5668400EA79B1 /* ball1.png in Resources */ = {isa = PBXBuildFile; fileRef = 108CA77F16F5668400EA79B1 /* ball1.png */; };
+		108CA78216F56B7100EA79B1 /* ball2.png in Resources */ = {isa = PBXBuildFile; fileRef = 108CA78116F56B7100EA79B1 /* ball2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		103AC82F16ED600D00A35901 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		103AC83016ED600D00A35901 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
+		103AC83216ED618600A35901 /* notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes; sourceTree = "<group>"; };
 		1064DDCF16EBEB3C00BEF244 /* TicTacToe_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1064DDD316EBEB3C00BEF244 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1064DDD516EBEB3C00BEF244 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -360,6 +372,18 @@
 		1064DF3B16EBEB3F00BEF244 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
 		1064DF3C16EBEB3F00BEF244 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		1064DF3E16EBEB3F00BEF244 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
+		1064DF4816EBF54700BEF244 /* PlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayLayer.h; sourceTree = "<group>"; };
+		1064DF4916EBF54700BEF244 /* PlayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayLayer.m; sourceTree = "<group>"; };
+		1064DF6716EC833B00BEF244 /* GCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCHelper.h; sourceTree = "<group>"; };
+		1064DF6816EC833C00BEF244 /* GCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCHelper.m; sourceTree = "<group>"; };
+		1064DF6A16EC86F600BEF244 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		1064DF7116EC8DAA00BEF244 /* GCPlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCPlayLayer.h; sourceTree = "<group>"; };
+		1064DF7216EC8DAA00BEF244 /* GCPlayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCPlayLayer.m; sourceTree = "<group>"; };
+		108CA77B16F419E500EA79B1 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		108CA77C16F4204200EA79B1 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		108CA77D16F4204200EA79B1 /* Particle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Particle.m; sourceTree = "<group>"; };
+		108CA77F16F5668400EA79B1 /* ball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball1.png; sourceTree = "<group>"; };
+		108CA78116F56B7100EA79B1 /* ball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -367,6 +391,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1064DF6B16EC86F600BEF244 /* GameKit.framework in Frameworks */,
 				1064DDD416EBEB3C00BEF244 /* QuartzCore.framework in Frameworks */,
 				1064DDD616EBEB3C00BEF244 /* OpenGLES.framework in Frameworks */,
 				1064DDD816EBEB3C00BEF244 /* OpenAL.framework in Frameworks */,
@@ -381,9 +406,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		103AC82A16ED5FBF00A35901 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				103AC82F16ED600D00A35901 /* GameObject.h */,
+				103AC83016ED600D00A35901 /* GameObject.m */,
+				108CA77C16F4204200EA79B1 /* Particle.h */,
+				108CA77D16F4204200EA79B1 /* Particle.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 		1064DDC416EBEB3C00BEF244 = {
 			isa = PBXGroup;
 			children = (
+				1064DF6A16EC86F600BEF244 /* GameKit.framework */,
 				1064DDE316EBEB3C00BEF244 /* TicTacToe_1 */,
 				1064DDD216EBEB3C00BEF244 /* Frameworks */,
 				1064DDD016EBEB3C00BEF244 /* Products */,
@@ -416,6 +453,9 @@
 		1064DDE316EBEB3C00BEF244 /* TicTacToe_1 */ = {
 			isa = PBXGroup;
 			children = (
+				103AC83216ED618600A35901 /* notes */,
+				103AC82A16ED5FBF00A35901 /* Objects */,
+				1064DF6C16EC874100BEF244 /* GameCenter */,
 				1064DF3516EBEB3F00BEF244 /* AppDelegate.h */,
 				1064DF3616EBEB3F00BEF244 /* AppDelegate.m */,
 				1064DF3816EBEB3F00BEF244 /* RootViewController.h */,
@@ -426,6 +466,8 @@
 				1064DDE416EBEB3C00BEF244 /* Resources */,
 				1064DDF816EBEB3C00BEF244 /* libs */,
 				1064DF3116EBEB3F00BEF244 /* Supporting Files */,
+				1064DF4816EBF54700BEF244 /* PlayLayer.h */,
+				1064DF4916EBF54700BEF244 /* PlayLayer.m */,
 			);
 			path = TicTacToe_1;
 			sourceTree = "<group>";
@@ -433,6 +475,8 @@
 		1064DDE416EBEB3C00BEF244 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				108CA78116F56B7100EA79B1 /* ball2.png */,
+				108CA77F16F5668400EA79B1 /* ball1.png */,
 				1064DDE516EBEB3C00BEF244 /* Default.png */,
 				1064DDE716EBEB3C00BEF244 /* fps_images.png */,
 				1064DDE916EBEB3C00BEF244 /* Icon-72.png */,
@@ -758,6 +802,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1064DF6C16EC874100BEF244 /* GameCenter */ = {
+			isa = PBXGroup;
+			children = (
+				1064DF6816EC833C00BEF244 /* GCHelper.m */,
+				1064DF6716EC833B00BEF244 /* GCHelper.h */,
+				1064DF7116EC8DAA00BEF244 /* GCPlayLayer.h */,
+				1064DF7216EC8DAA00BEF244 /* GCPlayLayer.m */,
+				108CA77B16F419E500EA79B1 /* Constants.h */,
+			);
+			name = GameCenter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -817,6 +873,9 @@
 				1064DDF216EBEB3C00BEF244 /* Icon.png in Resources */,
 				1064DDF416EBEB3C00BEF244 /* Icon@2x.png in Resources */,
 				1064DDF716EBEB3C00BEF244 /* iTunesArtwork in Resources */,
+				103AC83316ED618600A35901 /* notes in Resources */,
+				108CA78016F5668400EA79B1 /* ball1.png in Resources */,
+				108CA78216F56B7100EA79B1 /* ball2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -925,6 +984,11 @@
 				1064DF3716EBEB3F00BEF244 /* AppDelegate.m in Sources */,
 				1064DF3A16EBEB3F00BEF244 /* RootViewController.m in Sources */,
 				1064DF3D16EBEB3F00BEF244 /* HelloWorldLayer.m in Sources */,
+				1064DF4A16EBF54700BEF244 /* PlayLayer.m in Sources */,
+				1064DF6916EC833C00BEF244 /* GCHelper.m in Sources */,
+				1064DF7316EC8DAA00BEF244 /* GCPlayLayer.m in Sources */,
+				103AC83116ED600D00A35901 /* GameObject.m in Sources */,
+				108CA77E16F4204200EA79B1 /* Particle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -946,7 +1010,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -961,7 +1025,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -977,8 +1041,10 @@
 				GCC_PREFIX_HEADER = TicTacToe_1/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = TicTacToe_1/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -992,8 +1058,10 @@
 				GCC_PREFIX_HEADER = TicTacToe_1/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = TicTacToe_1/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1018,6 +1086,7 @@
 				1064DF4316EBEB3F00BEF244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

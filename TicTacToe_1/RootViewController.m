@@ -45,6 +45,7 @@
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	
+    return ( UIInterfaceOrientationIsPortrait( interfaceOrientation ) );
 	//
 	// There are 2 ways to support auto-rotation:
 	//  - The OpenGL / cocos2d way
@@ -103,6 +104,7 @@
 #if GAME_AUTOROTATION == kGameAutorotationUIViewController
 -(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
 {
+    //NSLog(@"willrotatetointerfaceorientation");
 	//
 	// Assuming that the main window has the size of the screen
 	// BUG: This won't work if the EAGLView is not fullscreen

@@ -16,6 +16,7 @@
 @implementation AppDelegate
 
 @synthesize window;
+@synthesize viewController;
 
 - (void) removeStartupFlicker
 {
@@ -91,7 +92,8 @@
 	[director setAnimationInterval:1.0/60];
 	[director setDisplayFPS:YES];
 	
-	
+	[director setDeviceOrientation:kCCDeviceOrientationPortrait];
+    
 	// make the OpenGLView a child of the view controller
 	[viewController setView:glView];
 	
@@ -109,6 +111,12 @@
 	// Removes the startup flicker
 	[self removeStartupFlicker];
 	
+    //------GC AUTHENICATE------//
+    //create the singleton instance and authenticate
+    [[GCHelper sharedInstance] authenticateLocalUser];
+    
+    [director setDeviceOrientation:kCCDeviceOrientationPortrait];
+    
 	// Run the intro Scene
 	[[CCDirector sharedDirector] runWithScene: [HelloWorldLayer scene]];
 }

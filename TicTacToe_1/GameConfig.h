@@ -29,6 +29,7 @@
 #if defined(__ARM_NEON__) || TARGET_IPHONE_SIMULATOR
 #define GAME_AUTOROTATION kGameAutorotationUIViewController
 
+
 // ARMv6 (1st and 2nd generation devices): Don't rotate. It is very expensive
 #elif __arm__
 #define GAME_AUTOROTATION kGameAutorotationNone
